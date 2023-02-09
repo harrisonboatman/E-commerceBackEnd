@@ -69,7 +69,7 @@ router.put('/:id', async (req, res) => {
       },
     });
    
-    if (req.body.tagIds) {
+    
       const productTags = await ProductTag.findAll({ where: { product_id: req.params.id } });
       const productTagIds = productTags.map(({ tag_id }) => tag_id);
       const newProductTags = req.body.tagIds
@@ -92,10 +92,7 @@ router.put('/:id', async (req, res) => {
       ]);
 
       res.status(201).json(updProductTags);
-    } else {
-      
-      res.status(200).json(`Nice! Product #${req.params.id} updated.`)
-    };
+     
   } catch (err) {
     res.status(400).json(err);
   };
