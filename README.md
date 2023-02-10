@@ -20,7 +20,8 @@ Must have node installed, and run 'NPM I' in the console. After this, run npm ru
 
 ## Usage
 
-[CompanyTracker.webm](https://user-images.githubusercontent.com/120153099/217150664-2a86b88f-5dff-41d3-971f-45315045ebcc.webm)
+
+[E-commerce video.webm](https://user-images.githubusercontent.com/120153099/217969022-d6bbda32-5a06-4903-adfb-80f35f1483e3.webm)
 
 
 ## Credits
